@@ -48,7 +48,7 @@ $values_2 = "";
 </head>
 <body>
 	<header class="site-header" id="header">
-		<h1 class="site-header__title" data-lead-id="site-header-title">THANK YOU!</h1>
+		<h1 class="site-header__title" data-lead-id="site-header-title" style="font-size:40px;">THANK YOU!</h1>
 	</header>
 
 	<div class="main-content">
