@@ -21,7 +21,6 @@ if ($conn->query($sql) === TRUE) {
 $values ="Name :". $name."\n\n Email :".$email."\n\n Contact Number :".$number."\n\n Subject :".$subject."\n\n Message : ".$mess;
 $values_2 = "";
       mail('saicharan14996@gmail.com', 'New Request Captured',$values,"New Request from SEOTechie", implode("\r\n", $headers));
-
 ?>
 
 
